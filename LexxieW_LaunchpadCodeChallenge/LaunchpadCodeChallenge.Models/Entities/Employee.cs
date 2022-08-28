@@ -12,9 +12,9 @@ namespace LaunchpadCodeChallenge.Models.Entities
         //empty default constructor 
         public Employee() { }
 
-        // Id number identifier guid 
+        // Id number identifier string 
         [Key]
-        public Guid Id { get; set; }
+        public string Id { get; set; } = string.Empty;
 
         //FirstName 
         public string FirstName { get; set; } = string.Empty;
@@ -29,7 +29,7 @@ namespace LaunchpadCodeChallenge.Models.Entities
         public string JobTitle { get; set; } = string.Empty;
 
         // id job department 
-        public Guid DepartmentId { get; set; }
+        public string DepartmentId { get; set; }
 
         // relationship between Department  
         public Department Department { get; set; }

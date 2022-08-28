@@ -21,8 +21,8 @@ namespace LaunchpadCodeChallenge.Models.ViewModels
             DepartmentId = src.DepartmentId;
             DepartmentName = src.Department.Name;
         }
-        //Id Identifier Guid 
-        public Guid Id { get; set; }
+        //Id Identifier string
+        public string Id { get; set; }
 
         //FirstName
         public string Firstname { get; set; }
