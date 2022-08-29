@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LaunchpadCodeChallange.Service\LaunchpadCodeChallange.Service.csproj" />
     <ProjectReference Include="..\LaunchpadCodeChallenge.Models\LaunchpadCodeChallenge.Models.csproj" />
   </ItemGroup>

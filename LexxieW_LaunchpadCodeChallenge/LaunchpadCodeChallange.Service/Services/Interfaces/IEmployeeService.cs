@@ -1,4 +1,5 @@
 ﻿using LaunchpadCodeChallenge.Models.Entities;
+using LaunchpadCodeChallenge.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,10 @@ namespace LaunchpadCodeChallange.Service.Services.Interfaces
     {
         IEnumerable<Employee> GetAll();
         IList<Employee> ListAll();
+
+        Task<List<EmployeeVM>> GetByDepartment(string departmentId);
+        Task<List<EmployeeVM>> ListAllAsync();
+
 
     }
 }

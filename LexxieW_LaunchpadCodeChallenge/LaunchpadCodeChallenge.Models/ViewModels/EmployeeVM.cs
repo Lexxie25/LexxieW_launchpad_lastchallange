@@ -37,7 +37,7 @@ namespace LaunchpadCodeChallenge.Models.ViewModels
         public string JobTitle { get; set; }
 
         //Department Id 
-        public Guid DepartmentId { get; set; }
+        public string DepartmentId { get; set; }
 
         // Department name from department Entity 
         public string DepartmentName { get; set; }
