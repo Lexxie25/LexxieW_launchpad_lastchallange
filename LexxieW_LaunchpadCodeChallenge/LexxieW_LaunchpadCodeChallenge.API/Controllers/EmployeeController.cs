@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LexxieW_LaunchpadCodeChallenge.API.Controllers
 {
-    [Route("api/employees")]
+    [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {

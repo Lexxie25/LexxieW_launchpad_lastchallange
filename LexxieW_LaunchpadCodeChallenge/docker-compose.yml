@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  lexxiew_launchpadcodechallenge.api:
+    image: ${DOCKER_REGISTRY-}lexxiewlaunchpadcodechallengeapi
+    container_name: "lexxiewlpcc"
+    build:
+      context: .
+      dockerfile: LexxieW_LaunchpadCodeChallenge.API/Dockerfile
+    ports: 
+       - "35040:80"
+       - "35041:443"

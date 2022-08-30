@@ -17,7 +17,7 @@ namespace LaunchpadCodeChallange.Repository.Repositories
         }
 
         public DbSet<Employee> Employees => Set<Employee>();
-        public DbSet<Department> Departments => Set<Department>();
+
 
     }
 }
