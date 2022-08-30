@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaunchpadCodeChallange.Repo
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0F538018-788D-43E3-A1AB-7BDCA2581796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionClass", "..\QuestionClass\QuestionClass.csproj", "{7A49D761-E462-427A-8EC9-AAF550197110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0F538018-788D-43E3-A1AB-7BDCA2581796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F538018-788D-43E3-A1AB-7BDCA2581796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F538018-788D-43E3-A1AB-7BDCA2581796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A49D761-E462-427A-8EC9-AAF550197110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A49D761-E462-427A-8EC9-AAF550197110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A49D761-E462-427A-8EC9-AAF550197110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A49D761-E462-427A-8EC9-AAF550197110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
